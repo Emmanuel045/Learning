@@ -182,14 +182,89 @@
 // }while(x < 10)
 
 // functions
-function add(a, b) {
-    // return "The sum of " + String(a) + " and " + String(b) + " is: " + String(a + b);
-    return `The sum of ${a} and ${b} is: ${a + b}`;
-}
+// function add(a, b) {
+//     return "The sum of " + String(a) + " and " + String(b) + " is: " + String(a + b);
+//     return `The sum of ${a} and ${b} is: ${a + b}`;
+// }
 
 // console.log(add(4,8))
 // console.log(add(3,8))
 
-const result = add(4, 8)
-console.log(result)
+// const result = add(4, 8)
+// console.log(result)
+
+
+// const c1 = function add(a, b) {
+//     return a + b;
+// };
+// const c2 = function subtract(a, b) {
+//     return a - b;
+// }
+// const c3 = function multiply(a, b) {
+//     return a * b;
+// }
+// const c4 = function divide(a, b) {
+//     if (b === 0) {
+//         return "Error: Division by zero is not allowed.";
+//     }
+//     return a / b;
+// }
+
+// const solve = c1
+
+// switch(solve) {
+//     case c1:
+//         console.log(c1(4, 8))
+//         break;
+//     case c2:
+//         console.log(c2(4, 8))
+//         break;
+//     case c3:
+//         console.log(c3(4, 8))
+//         break;
+//     case c4:
+//         console.log(c4(12, 2))
+//         break;
+// }
+
+// calculator function
+// function calculator(a, operator, b) {
+//     let result = 0
+//     switch(operator) {
+//         case '+':
+//             result = a + b;
+//             break;
+//         case '-':
+//             result = a - b;
+//             break;
+//         case '*':
+//             result = a * b;
+//             break;
+//         case '/':
+//             if (b === 0) {
+//                 return "Error: Division by zero is not allowed.";
+//             }
+//             result = a / b;
+//             break;
+//         case '%':
+//             if (b === 0) {
+//                 return "Error: Division by zero is not allowed.";
+//             }
+//             result = a % b;
+//             break;
+//         default:
+//             return "Error: Invalid operator.";
+//     }
+//     return result;
+// }
+// console.log(calculator(5, '%', 5))
+
+
+// multiplication table
+// function multTable(num) {
+//     for (let i = 1; i <= 12; i++) {
+//         console.log(num + " x " + i + " = " + (num * i));
+//     }
+// }
+// multTable(11)
 
