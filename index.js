@@ -193,7 +193,7 @@
 // const result = add(4, 8)
 // console.log(result)
 
-
+// expression function
 // const c1 = function add(a, b) {
 //     return a + b;
 // };
@@ -268,3 +268,39 @@
 // }
 // multTable(11)
 
+// arrow function
+// const add = (a, b) => {
+//     console.log(a + b);
+// }
+// const add = (a, b) => console.log(a + b);
+// add(4, 8)
+
+// const arrowFunc = a => a * 3;
+// console.log(arrowFunc(4)) // 12
+// you can use arrow functions with no parameters
+// you can use a traditional function before it is declared but you cannot use an arrow function before it is declared
+
+// Arrays and Objects
+// array is a collection of data that can be of any data type, while an object is a collection of key-value pairs.
+// array is ordered, while an object is unordered. This means that the order of elements in an array matters, while the order of key-value pairs in an object does not matter.
+
+// Array Methods
+// Methods are actions or functions being called in a object or array
+// const num = [3, 4, 3, 7, 5, 8, 9]
+// => push, pop, shift, unshift, slice, splice, indexOf, lastIndexOf, includes, find, findIndex, filter, map, reduce
+// num.push('34')
+// num.pop()
+// num.unshift(34)
+// num.shift()
+// console.log(num)
+
+// create a function that add in a value inside of an array
+const array = []
+function addValue(value) {
+    array.push(value)
+    console.log(array)
+}
+addValue(3)
+addValue(19)
+
+// 
